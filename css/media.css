@@ -616,6 +616,18 @@
     }
 }
 
+/* ----- SMALL LAPTOP ----- */
+
+@media (min-width: 1199px) and (max-width: 1350px) {
+
+    /* #navbar ul li a {
+        margin: 0 20px;
+    } */
+
+}
+
+/* ----- PRINTING PAGE ------ */
+
 @media print {
 
     .home-2 {
