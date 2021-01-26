@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/main.css">
-    <!-- <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="./css/address.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/slider.css">
-    <link rel="stylesheet" href="css/style.css"> -->
-
+    <link rel="stylesheet" href="css/style.css">
     <title>PowerRoom</title>
 </head>
 <body>
@@ -25,14 +25,13 @@
                     <i class="fas fa-bars"></i>
                 </div>
                 <ul>
-                    <li><a href="index.html" class="on">Accueil</a></li>
-                    <li><a href="leclub.html">Le Club</a></li>
-                    <li><a href="coaching.html">Coaching</a></li>
-                    <li><a href="lesprofs.html">Les Prof</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="leclub.php">Le Club</a></li>
+                    <li><a href="lesprofs.php">Les Prof</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
-            <a href="inscris.html" class="btn-a"> je m'inscris</a>
+            <a href="inscris.php" class="btn-a"> je m'inscris</a>
             <div id="content-head">
                 <div class="content-h">
                     <h1>NOTRE CONCEPT</h1>
@@ -42,10 +41,32 @@
             </div>
         </div>
     </header>
+    
+    <!-- COACHING -->
+
+    <section id="coaching">
+        <div class="container">
+            <article id="trainer">
+                <h2>Le coaching chez Power Room...</h2>
+                <div class="bottom-line"></div>
+                <p>T'aider à garder la forme ? C'est notre métier. Chez PowerRoom nos coachs diplômés d'état sont disponibles pour te motiver et t'aider à atteindre tes objectifs. En solo ou en Small Group Training®, ton coach n'est jamais loin pour corriger une position ou te conseiller sur l'utilisation de nos équipements. Il est ton guide pour keepcooler en toute sérénité !</p>
+                <br>
+                <p class="bold">Nos coachs te guident pour tes premiers pas en salle</p>
+                <img src="./img/Trainer-2.jpg" alt="" srcset="">
+                <br>
+                <p>
+                    Tu n'as jamais mis les pieds dans une salle de   sport ? Sois tranquille, nos coachs sont là pour toi. En plus de leur accompagnement en club, tu peux les solliciter quand tu le souhaites pour qu'ils élaborent ton programme sportif personnalisé. Notre équipe réalisera alors un premier bilan sur ta forme physique. Tu recevras ensuite ton programme d'entraînement adapté et personnalisé en fonction de ton défie ou de ton   objectif.
+                    <br><br>
+                    Que tu cherches à gagner du muscle, à améliorer ton cardio, ou simplement à reprendre le sport, nos équipes ont plus d'un tour dans leurs sacs pour te faire transpirer et progresser !
+                </p>
+                <img src="./img/trainer-3.jpg" alt="" srcset="">
+            </article>
+        </div>
+    </section>
 
     <!-- HOME PAGE -->
 
-    <main class="home">
+    <section class="home">
         <div class="container">
             <div class="promotion">
                 <div class="box-1"></div>
@@ -90,28 +111,7 @@
                 <div class="bottom-line"></div>
             </div>
         </div>       
-        
-        <!-- PERSONAL DETAILS -->
 
-        <section id="home-details">
-
-            <form action="envoimail.php" method="post">
-                <div class="detail">
-                    <div class="form-a">
-                        <p><label for="nom">Nom</label>
-                        <input type="text" name="nom" id="nom" placeholder="Entre votre nom"></p>
-
-                        <p><label for="tel">Telephone</label>
-                        <input type="tel" name="tel" id="tel" placeholder="00 00 00 00 00"></p>
-                        <p><label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="@"></p>
-                        <p><label for="message">Message</label>
-                            <textarea name="message" id="message" placeholder="Message" cols="30" rows="5"></textarea>
-                        </p>
-                    </div>
-                </div> 
-                <input class="btn-form-home" type="submit" value="ENVOYER">
-            </form>
 
             <!-- ADDRESS MAP HOURS  -->
             
@@ -140,49 +140,7 @@
                 </div>
             </div>
         </section>
-    </main>
-
-    <footer id="footer">
-        <div class="footer">
-            <div class="footer-info">
-                <h3>Power Room</h3>
-                <ul>
-                    <li>Accueil</li>
-                    <li>Le Club</li>
-                    <li>Coaching</li>
-                    <li>Les Prof</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-            <div class="social">
-                <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
-                <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
-                <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
-                <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
-            </div>  
-            <div class="footer-info">
-                <ul>
-                    <li>— LOCATIONS</li>
-                    <li>— NOS ACTIVITÉS</li>
-                    <li>— SERVICES</li>
-                    <li>— L'ÉQUIPE</li>
-                    <li>— LE MAG'</li>
-                </ul>   
-            </div>   
-        </div>
-        <div id="legal">           
-            <a href="#">Réglement intérieur</a>
-            <a href="#">Condotions des offers en cours</a>
-            <a href="#">Politique de confidentialité</a>
-            <a href="#">CGV</a>
-            <a href="#">CGU</a>
-            <a href="#">Mentions légales</a>
-        </div>
-        <p>Copyright &copy; 2020, PowerRoom, Tous droits réservés</a>
-    </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="scripts/burger.js"></script>
-
-</body>
-</html>
+    </section>
+<?php
+     include('footer.php');
+?>

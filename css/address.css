@@ -1,0 +1,15 @@
+  
+#data{
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  list-style-type: none;
+}
+
+#data li {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
