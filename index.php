@@ -52,7 +52,7 @@
                 <p>T'aider à garder la forme ? C'est notre métier. Chez PowerRoom nos coachs diplômés d'état sont disponibles pour te motiver et t'aider à atteindre tes objectifs. En solo ou en Small Group Training®, ton coach n'est jamais loin pour corriger une position ou te conseiller sur l'utilisation de nos équipements. Il est ton guide pour keepcooler en toute sérénité !</p>
                 <br>
                 <p class="bold">Nos coachs te guident pour tes premiers pas en salle</p>
-                <img src="./img/prof-1.jpg" alt="trainer-1" srcset="">
+                <img src="./img/trainer-2.jpg" alt="trainer-1" srcset="">
                 <br>
                 <p>
                     Tu n'as jamais mis les pieds dans une salle de   sport ? Sois tranquille, nos coachs sont là pour toi. En plus de leur accompagnement en club, tu peux les solliciter quand tu le souhaites pour qu'ils élaborent ton programme sportif personnalisé. Notre équipe réalisera alors un premier bilan sur ta forme physique. Tu recevras ensuite ton programme d'entraînement adapté et personnalisé en fonction de ton défie ou de ton   objectif.
