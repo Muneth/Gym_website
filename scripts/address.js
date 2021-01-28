@@ -1,6 +1,5 @@
 
 if(!localStorage.getItem('token')) {
-    console.log('Hello');
 
     fetch('http://localhost:7531')
         .then(response => response.json())
@@ -67,7 +66,6 @@ function getData(){
 } 
 
 let auth = `Bearer ${localStorage.getItem('token')}`;
-console.log(auth);
 
 function postData(){
 
