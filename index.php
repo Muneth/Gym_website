@@ -103,42 +103,34 @@
             </div>
         </section>
 
-        <div id="contact"></div>
-        
-        <div id="home-inscr">
-            <div class="ins-h2">
-                <h2>NOUS ÉCRIRE...</h2>
-                <div class="bottom-line"></div>
-            </div>
-        </div>       
+        <!-- <div id="contact"></div> -->
 
-
-            <!-- ADDRESS MAP HOURS  -->
+        <!-- ADDRESS MAP HOURS  -->
             
-            <div id="map">
-                <div class="map-1">
-                    <h2>TROUVEZ NOTRE SALLE</h2>
-                    <div class="bottom-line"></div>
-                    <iframe loading="lazy" id="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10749.31651492431!2d-2.7554641744857227!3d47.658602233423686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa95679d70af65df9!2sClub%20Gym!5e0!3m2!1sen!2sfr!4v1604672072790!5m2!1sen!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
-                
-                <div class="map-2">
-                    <address>
-                        <strong>Power Room</strong> <br>
-                        17 rue de le Tannerie <br>
-                        56000 VANNES
-                    </address>
-                    <table>
-                        <tr><th>Lundi&nbsp;&nbsp;</th><td>6h - 23h</td></tr>
-                        <tr><th>Mardi&nbsp;&nbsp;</th><td>6h - 23h</td></tr>
-                        <tr><th>Mercredi&nbsp;&nbsp;</th><td>6h - 23h</td></tr>
-                        <tr><th>Jeudi&nbsp;&nbsp;</th><td>6h - 23h</td></tr>
-                        <tr><th>Vendredi&nbsp;&nbsp;</th><td>6h - 23h</td></tr>
-                        <tr><th>Samedi&nbsp;&nbsp;</th><td>6h - 18h</td></tr>
-                        <tr><th>Dimanche&nbsp;&nbsp;</th><td>6h - 14h</td></tr>
-                        </table>
-                </div>
+        <div id="map">
+            <div class="map-1">
+                <h2>TROUVEZ NOTRE SALLE</h2>
+                <div class="bottom-line"></div>
+                <iframe loading="lazy" id="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10749.31651492431!2d-2.7554641744857227!3d47.658602233423686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa95679d70af65df9!2sClub%20Gym!5e0!3m2!1sen!2sfr!4v1604672072790!5m2!1sen!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
+            
+            <div class="map-2">
+                <address>
+                    <strong>Power Room</strong> <br>
+                    17 rue de le Tannerie <br>
+                    56000 VANNES
+                </address>
+                <table>
+                    <tr><th>Lundi&nbsp;&nbsp;</th><td>6h - 23h</td></tr>
+                    <tr><th>Mardi&nbsp;&nbsp;</th><td>6h - 23h</td></tr>
+                    <tr><th>Mercredi&nbsp;&nbsp;</th><td>6h - 23h</td></tr>
+                    <tr><th>Jeudi&nbsp;&nbsp;</th><td>6h - 23h</td></tr>
+                    <tr><th>Vendredi&nbsp;&nbsp;</th><td>6h - 23h</td></tr>
+                    <tr><th>Samedi&nbsp;&nbsp;</th><td>6h - 18h</td></tr>
+                    <tr><th>Dimanche&nbsp;&nbsp;</th><td>6h - 14h</td></tr>
+                    </table>
+            </div>
+        </div>
         </section>
     </section>
 <?php

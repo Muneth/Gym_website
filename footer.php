@@ -37,11 +37,17 @@
         <p>Copyright &copy; 2020, PowerRoom, Tous droits réservés</a>
     </footer>
 
-    <script src="./classes/httpclass.js"></script>
-    <script src="./scripts/address.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./dist/bundle.js"></script>
+    <script src="./dist/index.js"></script>
+    <script src="./dist/burger.js"></script>
+    <script src="./dist/address.js"></script>
+
+    <!-- <script src="./classes/httpclass.js"></script>
+    <script src="./scripts/address.js"></script>
+    
     <script src="./scripts/burger.js"></script>
-    <script src="./scripts/app.js"></script>
+    <script src="./scripts/app.js"></script> -->
     
 </body>
 </html>

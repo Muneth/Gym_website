@@ -4,6 +4,12 @@
 
 <main id="coaching">
 
+        <div id="home-inscr">
+            <div class="ins-h2">
+                <h2>NOUS ÉCRIRE...</h2>
+                <div class="bottom-line"></div>
+            </div>
+        </div>  
         <!-- PERSONAL DETAILS -->
 
     <section id="home-details">

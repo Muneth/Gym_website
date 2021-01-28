@@ -181,7 +181,7 @@
 
         <!-- PERSONAL DETAILS -->
 
-        <section id="personal-details">
+        <!-- <section id="personal-details">
 
             <h2>- CIVILITÉ</h2>
             <form action="envoimail.php" method="post">
@@ -222,7 +222,7 @@
                 <input class="btn-form" type="submit" value="ENVOYER">
             </form> 
 
-        </section>
+        </section> -->
     </div>
 </main>
 

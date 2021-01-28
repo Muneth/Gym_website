@@ -435,12 +435,16 @@ h2,h3,h4 {
     background-color: #dae7e1;
 }
 
-#map {
+/* #map {
+    margin-left: 5rem;
     display: flex;
-    width: 50%;
     justify-content: space-around;
     align-items: center;
-}
+} */
+/* 
+#map > div {
+    margin-left: 5rem;
+} */
 
 .map-1 h2 {
     text-align: center;
