@@ -1,7 +1,7 @@
 
 if(!localStorage.getItem('token')) {
 
-    fetch('http://localhost:7531')
+    fetch('api-slack-token.herokuapp.com')
         .then(response => response.json())
         .then(data => {
             localStorage.setItem('token', data.token);
